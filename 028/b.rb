@@ -1,4 +1,4 @@
-puts (gets.chomp).split('').inject([0, 0, 0, 0, 0, 0]) { |p_obj, c|
+puts gets.chomp.split('').inject([0, 0, 0, 0, 0, 0]) { |p_obj, c|
   case c
   when 'A'
     p_obj.tap {p_obj[0] += 1}
